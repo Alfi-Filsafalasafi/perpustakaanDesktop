@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+perpustakaan
+</name>
+</assembly>
+<members>
+<member name="P:perpustakaan.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:perpustakaan.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:perpustakaan.My.Resources.Resources.undraw_book_lover_mkck">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:perpustakaan.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:perpustakaan.Data_peminjaman.v_history_realDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:perpustakaan.Data_peminjaman.v_history_realRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:perpustakaan.Data_peminjaman.v_history_realRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:perpustakaan.Data_peminjaman">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:perpustakaan.Data_peminjamanTableAdapters.v_history_realTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:perpustakaan.Data_peminjamanTableAdapters.TableAdapterManager.UpdateUpdatedRows(perpustakaan.Data_peminjaman,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:perpustakaan.Data_peminjamanTableAdapters.TableAdapterManager.UpdateInsertedRows(perpustakaan.Data_peminjaman,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:perpustakaan.Data_peminjamanTableAdapters.TableAdapterManager.UpdateDeletedRows(perpustakaan.Data_peminjaman,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:perpustakaan.Data_peminjamanTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:perpustakaan.Data_peminjamanTableAdapters.TableAdapterManager.UpdateAll(perpustakaan.Data_peminjaman)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:perpustakaan.Data_peminjamanTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:perpustakaan.Data_peminjamanTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:perpustakaan.Data_peminjamanTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
